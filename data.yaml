@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['mica']
+
+roboflow:
+  workspace: kiets-workspace-d11tj
+  project: robot-vision-iwang
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/kiets-workspace-d11tj/robot-vision-iwang/dataset/3
